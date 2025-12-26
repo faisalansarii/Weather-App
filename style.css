@@ -1,0 +1,140 @@
+
+body {
+    background-color: #131515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+}
+
+#main {
+    height: 600px;
+    width: 380px;
+    background: linear-gradient(135deg , #c8fd41 , #48d6be);
+    border-radius: 15%;
+}
+
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+#search-bar {
+    height: 40px;
+    width: 240px;
+    border-radius: 30px;
+    /* border: black; */
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#search-icon-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    /* background-color: black; */
+    /* margin-left: -30px; */
+    cursor: pointer;
+}
+
+/* #search-icon {
+    height: 40px;
+    width: 40px;
+} */
+
+
+#temp-pic {
+    height: 120px;
+    width: 200px;
+    mix-blend-mode: multiply;
+    padding-left: 80px;
+    margin-top: 30px;
+}
+
+
+#temperature {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#city-name {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 0px;
+    /* margin-bottom: 40px; */
+    font-weight: bold;
+}
+
+
+#extra-info {
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px; */
+    margin-left: 22px;
+    margin-right: 25px;
+    justify-content: space-between;
+}
+
+
+#humidity-container {
+    display: flex;
+    align-items: center;
+    /* margin-left: 50px; */
+    /* gap: 10px; */
+}
+
+#humidity-pic , #aqi-pic {
+    height: 40px;
+    width: 40px;
+    mix-blend-mode: multiply;
+    /* padding-left: 30px; */
+    /* margin-top: 20px; */
+}
+
+#humidity , #aqi{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+
+#aqi-container {
+    display: flex;
+    align-items: center;
+    /* margin-left: 50px; */
+    /* gap: 10px; */
+}
+
+
+
+#humidity p , #aqi p {
+    margin: 0px;
+}
+
+
+#description {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+#description-span {
+    font-weight: bold;
+}

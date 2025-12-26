@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="main">
+
+        <section id="search">
+            <input type="text" value="" placeholder="Enter City Name" id="search-bar">
+            <button id="search-icon-btn">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </section>
+        
+        <img src="Temperature.png" id="temp-pic">
+        <p id="temperature">30°C</p>
+        <p id="city-name">Delhi</p>
+
+
+        <section id="extra-info">
+            <div id="humidity-container">
+                <img src="Humidity.png" id="humidity-pic">
+                <span id="humidity">Humidity:
+                    <p>50%</p>
+                </span>
+                
+
+            </div>
+            
+            <div id="aqi-container">
+                <img src="Humidity.png" id="aqi-pic">
+                <span id="aqi">AQI:
+                    <p>300</p>
+                </span>
+            </div>
+        </section>
+        
+
+        <div id="description">
+            <span id="description-span">Description:</span>
+            <span>Haze</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
